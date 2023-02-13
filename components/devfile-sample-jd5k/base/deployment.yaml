@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-jd5k
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:nmukherj-tenant-devfile-sample-jd5k
+      - image: quay.io/redhat-appstudio/user-workload@sha256:e720256ded515b8b303100103289b8bf40ac236830dae126cef32165e53fbf27
         name: my-nodejs
         ports:
         - containerPort: 3001
