@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-jd5k
+  namespace: nmukherj-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:e720256ded515b8b303100103289b8bf40ac236830dae126cef32165e53fbf27
+        name: my-nodejs
+        resources: {}
+status: {}
