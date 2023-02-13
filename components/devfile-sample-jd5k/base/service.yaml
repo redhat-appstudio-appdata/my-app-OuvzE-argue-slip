@@ -12,8 +12,8 @@ metadata:
   namespace: nmukherj-tenant
 spec:
   ports:
-  - port: 3001
-    targetPort: 3001
+  - port: 3003
+    targetPort: 3003
   selector:
     app.kubernetes.io/instance: devfile-sample-jd5k
 status:
